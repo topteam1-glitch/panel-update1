@@ -19,12 +19,13 @@
         .container {
             max-width: 800px;
             margin: auto;
-            background: rgba(0, 0, 255);
+            background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 255, 0.1);
             text-align: center;
             position: relative;
+            backdrop-filter: blur(10px); /* Blur effect */
         }
         .blurred-bg {
             position: absolute;
@@ -120,7 +121,6 @@
             <a href="https://www.youtube.com/@TOPXITERS" class="extra-btn2">
                 <img src="https://i.postimg.cc/bJVRZ3kW/youtube.png" alt="">
             </a>
-
         </div>
     </div>
 </body>
